@@ -1,0 +1,120 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+    box-sizing: border-box;
+}
+nav .navbar-brand{
+    font-weight: 800;
+}
+.navbar{
+    background-color: #1a1a1a;
+}
+li a{
+    font-weight: 800;
+}
+.header .nav-link{
+    color: aqua;
+}
+.header{
+    background-color: #1a1a1a;
+    height: 100vh;
+}
+.header h1{
+    font-size: 100px;
+    font-weight: 700;
+    padding-top: 9%;
+    color: aliceblue;
+    
+}
+@media (max-width: 575.98px) { 
+
+    .header h1{
+        font-size: 50px;
+        font-weight: 700;
+        padding-top: 45%;
+        color: aliceblue;
+        
+    }
+}
+.header span{
+    color: rgb(184, 62, 82);
+}
+
+.header img{
+    position: absolute;
+    left: 50%;
+    bottom: 9%;
+}
+@media (max-width: 575.98px) { 
+
+    .header img{
+        position: absolute;
+        width: 100%;
+        top: 53%;
+        left: -0%;
+        
+    }
+}
+@media (max-width: 575.98px) { 
+
+    .header .btn{
+       font-size: 15px;
+       margin-top: 5%;
+        
+    }
+}
+
+
+
+/* music list */ 
+
+.photos{
+    background-color: #1a1a1a;
+    height: 300vh;
+}
+@media (max-width: 575.98px) { 
+
+    .photos{
+        background-color: #1a1a1a;
+        height: 740vh;
+    }
+}
+.photos h1{
+    color: #ffff;
+    font-weight: 700;
+}
+.photos .container{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 20px;
+    flex-wrap: wrap;
+}
+
+.photos .card{
+    background-color: #1a1a1a;
+    cursor: pointer;
+    width: 20rem;
+    margin: 15px 0;
+    height: 85%;
+}
+@media (max-width: 575.98px) { 
+
+    .photos .card{
+        background-color: #1a1a1a;
+        cursor: pointer;
+        width: 14rem;
+        margin: 15px 0;
+        height: 85%;
+    }
+}
+
+.photos .icon{
+    width: 80px;
+    margin-top: 5%;
+    margin-right:   5%;
+}
+.photos .name{
+    font-size: small;
+    
+}
